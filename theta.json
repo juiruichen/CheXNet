@@ -1,0 +1,16 @@
+{
+    "train_or_test": "trian",
+    "model_name": "efficientnet",
+    "data_dir": "./images/",
+    "train_file_path": "./labels/train_list.txt",
+    "val_file_path": "./labels/val_list.txt",
+    "test_file_path": "./labels/test_list.txt",
+    "checkpoint_dir": "./checkpoint/",
+
+    "num_classes": 14,
+    "num_epochs": 100,
+    "batch_size": 64,
+    "learning_rate": 1e-4,
+    "num_workers": 8,
+    "pretrained": true
+}
